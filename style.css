@@ -327,7 +327,7 @@ h2 {
   justify-content: left;
 }
 h2 {
-  margin: 130px 0 114px;
+  margin: 130px 0 110px;
   color: white;
   display: flex;
   justify-content: center;
@@ -345,6 +345,9 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
+}
+.shift {
+  margin-left: 100px;
 }
 .mar {
   margin-right: 141px;
@@ -495,7 +498,7 @@ h3 {
 .headline {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: space-around;
   margin: 80px 120px;
   font-size: 60px;
   color: white;
@@ -841,6 +844,7 @@ footer {
     margin-top: 5%;
   }
   .block-text div {
+    margin-left: 10px;
     margin-top: 30vw;
   }
   .block-text {
@@ -860,7 +864,9 @@ footer {
   #slideshow-container {
     display: none;
   }
-
+  .images {
+    display: none;
+  }
   .container {
     display: flex;
     justify-content: space-between;
@@ -897,6 +903,7 @@ footer {
     font-size: 44vw;
   }
 .caption span {
+  margin-top: 15%;
   margin-left: 3%;
 }
 .caption button {
@@ -924,6 +931,7 @@ footer {
   line-height: 60vw;
 }
 .logo2 {
+  margin-left: -5%;
   width: 120vw;
 }
 .author span{
@@ -979,7 +987,6 @@ font-size: 15vw;
   }
   .adap3 img {
     width: 88%;
-
   }
   .links {
     display: none;
@@ -1007,6 +1014,7 @@ font-size: 15vw;
     margin-top: 5%;
   }
   .block-text div {
+    margin-left: 10px;
     margin-top: 30vw;
   }
   .headline h4 {
@@ -1028,6 +1036,9 @@ font-size: 15vw;
   }
 
   #slideshow-container {
+    display: none;
+  }
+  .images {
     display: none;
   }
 
@@ -1087,6 +1098,7 @@ footer {
   line-height: 60vw;
 }
 .logo2 {
+  margin-left: -5%;
   width: 120vw;
 }
 .author span{
@@ -1170,9 +1182,14 @@ font-size: 15vw;
   }
   .block-text div {
     margin-top: 30vw;
+    margin-left: 10px;
+  }
+  .headline {
+    display: flex;
+    justify-content: flex-start;
   }
   .headline h4 {
-    font-size: 106%;
+    font-size: 113%;
     margin-left: 17%;
   }
   .block-text {
@@ -1190,6 +1207,9 @@ font-size: 15vw;
   }
 
   #slideshow-container {
+    display: none;
+  }
+  .images {
     display: none;
   }
 .prev {
